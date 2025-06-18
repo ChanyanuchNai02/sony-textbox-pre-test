@@ -10,11 +10,6 @@ namespace TextboxCheckSameTextApp
             InitializeComponent();
         }
 
-        private void btnShow_Click(object sender, EventArgs e)
-        {
-            textBoxB.Text = textBoxA.Text;
-        }
-    
         private void btnCheck_Click(object sender, EventArgs e)
         {
             if (textBoxA.Text == textBoxB.Text)
