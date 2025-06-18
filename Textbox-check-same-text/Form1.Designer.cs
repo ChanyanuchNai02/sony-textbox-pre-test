@@ -1,4 +1,4 @@
-﻿namespace TextboxCheckSameTextApp
+namespace TextboxCheckSameTextApp
 {
     partial class Form1
     {
@@ -19,6 +19,9 @@
         {
             this.textBoxA = new System.Windows.Forms.TextBox();
             this.textBoxB = new System.Windows.Forms.TextBox();
+            this.btnCheck = new System.Windows.Forms.Button();
+            this.lblResult = new System.Windows.Forms.Label();
+
             this.SuspendLayout();
 
             // textBoxA
@@ -50,19 +53,13 @@
             this.lblResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 
             // Form1
-            this.ClientSize = new System.Drawing.Size(300, 150);
+            this.ClientSize = new System.Drawing.Size(550, 180);
             this.Controls.Add(this.textBoxA);
             this.Controls.Add(this.textBoxB);
-            this.Name = "Form1";
-            this.Text = "Form1";
-
-            this.btnCheck = new System.Windows.Forms.Button();
-            this.lblResult = new System.Windows.Forms.Label();
-
-            // Update Form Size and Add Controls
-            this.ClientSize = new System.Drawing.Size(550, 180);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.lblResult);
+            this.Name = "Form1";
+            this.Text = "Form1";
 
             this.ResumeLayout(false);
             this.PerformLayout();
